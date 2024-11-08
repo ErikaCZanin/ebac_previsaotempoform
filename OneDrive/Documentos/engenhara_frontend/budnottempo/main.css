@@ -1,0 +1,78 @@
+/* main.css */
+
+body {
+    margin-top: 50px;
+        background-image: url('/img/imgFundo2.jpg'); /* Caminho da imagem */
+        background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+        background-repeat: no-repeat; /* Evita que a imagem se repita */  
+}
+
+.abaPrincipal {
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 46px;
+}
+
+.form {
+    width: 450px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 9px;
+    margin-left: 95px;
+    color: black;
+}
+
+a.btn {
+    display: block;
+    margin: 16px 0px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+a.btn:hover {
+    background-color: #fff;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+time {
+    display: block;
+    color: aliceblue;
+}
+
+img {
+    border-radius: 9px;
+    width: 150px;
+}
+
+h4{
+    padding-top: 16px;
+}
+
+
+.prev h2,
+.prev h4,
+.prev h4 {
+    color: aliceblue;
+}
+
+.prevNoticia {
+    padding: 8px;
+}
+
+.prevNoticia:hover {
+    background-color: #004a87;
+    border-radius: 8px;
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    margin-left: 365px;
+    width: 41%;
+}
